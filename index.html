@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oshi No Ko</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+  <header>
+    <h1> Oshi No Ko </h1>
+  </header>
+  <main>
+    <form action="resp.php" method="post">
+        <div id="dnome">
+        <p> <label for="inome"> Nome </label></p>
+        <p> <input type="text" id="inome" name="nome" placeholder="Digite seu nome" required></p>
+        </div>
+
+        <div id="demail">
+            <p> <label for="iemail"> E-mail </label></p>
+            <p> <input type="email" id="iemail" name="email" placeholder="exemplo@gmail.com" required></p>
+        </div>
+
+        <div id="didade">
+            <p> <label for="iidade"> Idade </label></p>
+            <p> <input type="number" id="iidade" name="idade" placeholder="1 a 99" required min="1" max="99"></p>
+        </div>
+
+        <div id="dgen">
+            <p> Gênero </p>
+            <p> <input type="radio" id="igenF" name="genero">  <label for="igenF"> Feminino </label> </p>
+            <p> <input type="radio" id="igenM" name="genero">  <label for="igenM"> Masculino </label> </p>
+            <p> <input type="radio" id="igenO" name="genero"> <label for="igenO"> Prefiro não responder </label> </p>
+        </div>
+
+        <div id="dnota"> 
+            <p> <label for="inota"> Que nota você daria ao episódio?
+            </label></p>
+            <p> <input type="range" id="inota" min="1" max="10" value="5" required oninput="inota.nextElementSibling.value = inota.value"> <output> 5 </output> </p>
+        </div>
+
+        <div id="dchar">
+            <p> Qual personagem você mais gostou?</p>
+            <p> <input type="checkbox" id="icharAi"> <label for="icharAi">  Ai Hoshino  </label> </p>
+            <p> <input type="checkbox" id="icharAq"> <label for="icharAq">  Aquamarine Hoshino  </label> </p>
+            <p> <input type="checkbox" id="icharRu"> <label for="icharRu">  Ruby Hoshino  </label> </p>
+            <p> <input type="checkbox" id="icharGo"> <label for="icharGo">  Gorou  </label> </p>
+            <p> <input type="checkbox" id="icharSa"> <label for="icharSa">  Sarina  </label> </p>
+            <p> <input type="checkbox" id="icharMiya"> <label for="icharMiya">  Miyako Saitou  </label> </p>
+            <p> <input type="checkbox" id="ichar15"> <label for="ichar15">  Ichigo Saitou  </label> </p>
+            <p> <input type="checkbox" id="icharTai"> <label for="icharTai">  Taishi Gotanda
+             </label> </p>
+        </div>
+
+
+        <div id="dcoment"> 
+            <p> <label for="icoment"> Descreva sua experiência com a obra (opcional) </label></p>
+            <p> <textarea name="coment" id="icoment" cols="50" rows="10" placeholder="Digite aqui"></textarea></p>
+        </div>
+
+
+        <div id="SuRe">
+            <p> <input type="submit" value="Enviar"></p>
+        </div>
+    </form>
+  </main>
+</body>
+</html>
