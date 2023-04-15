@@ -51,6 +51,10 @@ input[type=text], input[type=email], input[type=number]   {
     text-align: center;
 }
 
+#dgen, #igenF, #igenM, #igenO {
+    
+}
+
 textarea {
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, 0.336);
@@ -62,7 +66,7 @@ textarea {
 input[type=submit] {
     display: block;
     padding: 10px;
-    width: 440px;
+    width: 370px;
     height: 60px;
     background-color: rgba(137, 43, 226, 0.432);
     color: white ;
