@@ -31,7 +31,7 @@ main {
 }
 
 div {
-    text-align: center;
+
     padding: 10px;
     background-color: rgba(137, 43, 226, 0.432);
     border-bottom: 1px solid rgba(0, 0, 255, 0.336);
@@ -61,21 +61,19 @@ textarea {
 
 input[type=submit] {
     display: block;
-    margin: auto;
     padding: 10px;
-    width: 300px;
+    width: 440px;
     height: 60px;
     background-color: rgba(137, 43, 226, 0.432);
     color: white ;
     border: 1px solid rgba(0, 0, 255, 0.336);
     border-radius: 10px;
-
+    font-size: 1.5em;
 }
 
 input[type=submit]:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 255, 0.336);
-    text-decoration: underline;
 } 
 
 
