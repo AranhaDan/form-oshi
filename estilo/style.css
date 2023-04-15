@@ -51,9 +51,14 @@ input[type=text], input[type=email], input[type=number]   {
     text-align: center;
 }
 
-#dgen, #igenF, #igenM, #igenO {
-    
+input[type=checkbox], input[type=radio] {
+transform: scale(1.5);
 }
+
+input[type=range] {
+    width: 300px;
+}
+    
 
 textarea {
     border-radius: 5px;
