@@ -17,7 +17,7 @@ body {   background-image: url(../imagem/oshi.webp);
 header {
     padding: 40px;
     color: white;
-    background-color: rgba(137, 43, 226, 0.432);
+    background-color: rgba(0, 0, 0, 0);
     border-bottom: 1px solid rgba(0, 0, 255, 0.336);
 }
 
@@ -66,6 +66,7 @@ textarea {
     background-color: rgba(137, 43, 226, 0.432); 
     color: white;
     text-align: center;
+    width: 100%;
 }
 
 input[type=submit] {
